@@ -1,6 +1,5 @@
-package ru.redguy.crossplattormbot_minecraft;
+package ru.redguy.crossplattormresender_minecraft;
 
-import com.google.gson.JsonObject;
 import com.google.inject.Inject;
 import org.json.JSONObject;
 import org.slf4j.Logger;
@@ -13,15 +12,15 @@ import org.spongepowered.api.plugin.Plugin;
 import java.net.UnknownHostException;
 
 @Plugin(
-        id = "crossplattormbot_minecraft",
-        name = "Crossplattormbot=",
+        id = "crossplattormresender_minecraft",
+        name = "Crossplattormresender=",
         description = "bot in mine!",
         url = "https://redguy.ru",
         authors = {
                 "RedGuy"
         }
 )
-public class Crossplattormbot {
+public class CrossplattormResender {
 
     @Inject
     private Logger logger;

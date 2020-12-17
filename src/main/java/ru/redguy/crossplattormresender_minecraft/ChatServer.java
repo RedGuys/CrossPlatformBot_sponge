@@ -1,4 +1,4 @@
-package ru.redguy.crossplattormbot_minecraft;
+package ru.redguy.crossplattormresender_minecraft;
 
 import org.java_websocket.WebSocket;
 import org.java_websocket.drafts.Draft;
@@ -10,9 +10,6 @@ import org.spongepowered.api.Sponge;
 import org.spongepowered.api.entity.living.player.Player;
 import org.spongepowered.api.text.Text;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.net.InetSocketAddress;
 import java.net.UnknownHostException;
 import java.nio.ByteBuffer;
